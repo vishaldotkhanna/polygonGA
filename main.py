@@ -9,7 +9,7 @@ from copy import deepcopy
 IMAGE_PATH = 'pepsi.png'
 SAVE_PATH = getcwd() + '/img_generate_heroku'
 SAVE_TO_DROPBOX = True
-SAVE_FREQUENCY = 200
+SAVE_FREQUENCY = 5
 
 
 def scm():
@@ -82,5 +82,5 @@ def simple_ga():
 if __name__ == '__main__':
     image = Image.open(IMAGE_PATH)
     initialize_global_vars(image)
-    # simple_ga()
-    scm()
+    simple_ga()
+    # scm()
