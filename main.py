@@ -9,7 +9,7 @@ from copy import deepcopy
 IMAGE_PATH = 'pepsi.png'
 SAVE_PATH = getcwd() #'img_generate_heroku'
 SAVE_TO_DROPBOX = True
-SAVE_FREQUENCY = 2
+SAVE_FREQUENCY = 200
 
 
 def scm():
