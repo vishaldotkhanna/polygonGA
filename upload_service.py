@@ -3,7 +3,7 @@ from dropbox.files import WriteMode
 
 
 ACCESS_TOKEN = 'GirJ0yhybFAAAAAAAAAAUxJwli4oxN6nl1YZyXWPpaqwRroYun_4EkrB0JKG3I6a'
-LOCAL_BASE_PATH = 'img_generate_heroku/'
+LOCAL_BASE_PATH = '' #'img_generate_heroku/'
 DROPBOX_BASE_PATH = '/polygon_ga_out_2/'
 db = Dropbox(ACCESS_TOKEN)
 
